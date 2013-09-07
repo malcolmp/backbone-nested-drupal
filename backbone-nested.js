@@ -7,7 +7,7 @@
  * MIT Licensed (LICENSE)
  */
 /*global $, _, Backbone */
-(function(){
+(function($){
   'use strict';
 
   var _delayedTriggers = [];
@@ -330,4 +330,4 @@
 
   });
 
-}());
+}(jQuery));
